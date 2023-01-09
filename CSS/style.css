@@ -1,0 +1,75 @@
+/*Hoja de estilo CSS*/
+div {
+    height: 510px;
+    width: 400px;
+    border: solid;
+    background: #e4cad9;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    margin-top: 25px;
+}
+
+body {
+    background-color: #d5f3e8;
+    font-family: genova;
+}
+
+hr {
+    border-width: 7px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #7a7978;
+    width: 10%;
+}
+
+img {
+    height: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0f4103;
+}
+/** Clases (Varias)**/
+.tablaGrande {
+    background-color: rgb(177, 130, 177);
+    padding: 10px;
+ }
+/** ID (Uno solo)#tabla1 {
+background-color: red;
+}**/
+
+#texto {
+    color: rgb(12, 165, 236);
+}
+#texto:hover {
+    color: red;
+}
+#texto1 {
+    color: rgb(75, 43, 2);
+}
+#texto1:hover{
+    color: rgb(245, 190, 11);
+}
+#mela{
+    font-size: xx-large;
+}
+
+div {
+    width: 510px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.top-container {
+    background-color:rgb(129, 129, 138);  
+}
+.middle-container {
+    background-color: rgb(206, 179, 179);
+    margin-left: 150px;
+}
+.botton-container {
+    background-color: rgb(185, 185, 174);
+    margin-left: 300px;
+}
